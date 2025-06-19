@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <h1>Contact Form</h1>
+        <form id="contactForm" action="https://formsubmit.co/orjielochukwu3@gmail.com"
+        method="POST">
+        <input type="hidden" name="_captcha" value="true">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/feedback.html">
+        
+      
+        <label for="name">Name<span class="required_star">*</span></label><br>
+        <input type="text" name="name" placeholder="Enter your full name" required><br><br>
+              
+        <label for="email">Email<span class="required_star">*</span></label><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+        <label for="phone">Phone Number<span class="required_star">*</span></label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your Phone Number" required><br><br>
+        
+        <label>Gender<span class="required_star">*</span></label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label>Hobbies (you can choose more than one)</label><br>
+        <input type="checkbox" name="Hobbies[]" value="read">Reading<br>
+        <input type="checkbox" name="Hobbies[]" value="write">Writing<br>
+        <input type="checkbox" name="Hobbies[]" value="travel">Traveling<br>
+        <input type="checkbox" name="Hobbies[]" value="sports">Sports<br><br>
+
+        <label for="rating">Rate your experience (1 = Very Poor, 10 = Excellent)</label><br>
+        <select name="rating" id="rating">  
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select><br><br>
+
+        <label for="comments">What can we improve? (Optional)</label><br>
+        <textarea id="comments" name="comments" rows="4" placeholder="Enter your comments here..."></textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+        </form>
+    </body> 
+</html>
