@@ -40,11 +40,7 @@ This project includes a simple contact form that collects user information and f
 ```bash
 action="https://formsubmit.co/your-email@example.com"
 ```
-- Change the _next value to the desired URL for redirection after form submission:
 
-```bash
-<input type="hidden" name="_next" value="http://your-redirect-url.com">
-```
 ## Requirements
 - A modern web browser to view and test the form.
 - Internet access for form submission.
